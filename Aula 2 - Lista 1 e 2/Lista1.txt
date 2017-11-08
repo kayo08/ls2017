@@ -1,0 +1,42 @@
+Lista 1
+Kayo Martins Freitas
+
+1 – git --version é usado para descobrir a versão do git.
+2a – lista todas as variáveis configuradas no config file com os seus valores.
+2b – Move ou renomeia um arquivo, pasta, link simbólico.
+2c – Reseta os arquivos indexados e a árvore de trabalho local para o último commit específicado, descartando qualquer alterações realizadas após o último commit registrado.
+2d – Apresenta o log dos últimos 27 commits.
+2e – Apresenta uma lista de parâmetros disponíveis para uso nos comandos git, além dos comandos mais comuns utilizados no git.
+2f – Apresenta um guia de uso do comando “reset”, com os possíveis parâmetros que possam ser utilizados, além de comandos e o funcionamento de cada um deles.
+2g – Adiciona todos os arquivos presentes na pasta que sofre o controle de configuração do git, ao modo “staged”, tanto os arquivos já existentes, como os arquivos que ainda não possuem o pathspec controlado pelo git.
+2h – Atualizada todos os arquivos que já sofrem o controle de versão do git, e que possuem o seu pathspec acompanhado pelo git, ao modo “staged”.
+3 – git add / git commit.
+4 – git status
+5 – git status
+6 – git commit
+7 – git reset HEAD <arquivo>
+8 – Deve adicioná-lo ao .gitignore para que ele não seja adicionado ao repositório central
+9 – Você pode apenas cloná-lo de novo
+10 – Você utiliza o comando git clone <endereço_do_repositório>
+11 – git log --pretty=oneline
+12 – .gitconfig
+13 – git init
+14 – .git
+15 – git add -u
+16 – Ele utiliza o algoritmo de dispersão seguro chamado SHA na sua segunda versão, chamada de SHA-1. O propósito é, na forma original do SHA, a criptografia, mas no seu uso no git, a integridade de dados. O SHA-1 é o chamado algoritmo de dispersão seguro em sua segunda versão, que é a criptografia por meio do hash. Todos os commits recebem um código SHA1 para que ele seja controlado.
+18 – Não, já que este comando só atualiza os arquivos já “staged” que sofreram modificação, e não adiciona novos arquivos.
+19 – Primeiro, o último commit será desfeito, mas as alterações permanecerão. Depois, no segundo comando, o último commit antes do commit que foi desfeito, é cancelado, e as mudanças serão desfeitas também, deixando nossa árvore de trabalho no estado anterior aos últimos 2 commits.
+20 – git clean -f
+21 – .gitignore
+22 – *.class
+23 – ok, clonado
+24 – Lista o número de commits dos contribuidores, juntamente com o nome e o e-mail.
+25 – Lista qual o nome “alocado” aos nomes de repositórios.
+26 – git tag
+27 – git tag -l “2.0*
+28 – Aqui, ele retornou o erro “fatal: too many params”, mas acredito que o efeito era uma nova tag ser criada, com o nome de 3.4-gold e com a mensagem “minha versão ouro” ligada a ela.
+29 – A tag 3.4-gold será mostrada com sua mensagem.
+30 – Ele salvaria a versão atual da nossa árvore de trabalho para a versão 3.4-gold.
+31 – Substitui os dados do commit, como a mensagem, com o novo commit.
+32 – Retira o x.txt do modo staging
+

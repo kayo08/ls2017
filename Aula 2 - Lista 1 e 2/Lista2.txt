@@ -1,0 +1,13 @@
+Lista 2
+Kayo Martins Freitas
+
+2 – git push origin <nome_da_tag> ou git push –tags
+3 – Master
+4 – Cria branch com o nome desejado.
+5 – git branch <nome_do_branch> <sha1_do_commit>
+6 – Cria branch nomeado “erro1234”
+7 – git checkout experimento2
+8 – Uma lista com b1 e b2, e o b1 com o asterisco do lado, indicando que estamos nesse branch.
+9 – Cria um novo branch com o nome de “novobranch” a partir do branch corrente, e muda o corrente para este mesmo branch, ou seja, o “novobranch”.
+10 – Deleta o branch “teste” caso ele exista.
+
